@@ -12,4 +12,5 @@ document.getElementById("submit_btn").onclick=function append_Task(){
         counter++;
         task.value="";
     }
+    document.getElementById("numbers").textContent=counter;
 }
