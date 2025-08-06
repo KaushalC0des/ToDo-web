@@ -88,3 +88,34 @@ button {
     font-weight: bold;
     outline: none;
 }
+ul.task-list li {
+    background-color: #1e1e2f;
+    color: white;
+    padding : 12px 12px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+ul.task-list li:hover {
+    background-color: #2a2a3f;
+}
+ul.task-list li.done {
+    text-decoration: line-through;
+    color: #999;
+    background-color: #2e2e3e;
+}
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    color: #ff6b6b;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: transform 0.2s ease;
+}
