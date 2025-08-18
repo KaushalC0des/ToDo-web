@@ -46,7 +46,7 @@ body {
     height: 10px;
     background-color: var(--teal);
     border-radius: 10px;
-    transition: all 0.3s ease;
+    transition: all 0.35s ease;
 }
 #numbers {
     width: 100px;
@@ -89,26 +89,26 @@ button {
     outline: none;
 }
 ul.task-list li {
-    background-color: #1e1e2f;
-    color: white;
-    padding : 12px 12px;
+    background: linear-gradient(135deg, #171c48, #2a2a72); /* deep blue gradient */
+    color: var(--text);
+    padding: 14px 16px;
     margin-top: 15px;
-    margin-bottom: 10px;
-    border-radius: 8px;
+    border-radius: 12px;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.3s ease;
-    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 ul.task-list li:hover {
-    background-color: #2a2a3f;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.4);
 }
 ul.task-list li.done {
     text-decoration: line-through;
-    color: #999;
-    background-color: #2e2e3e;
+    opacity: 0.7;
+    background: linear-gradient(135deg, #2e2e3e, #3e3e5e);
 }
 .delete-btn {
     background-color: transparent;
