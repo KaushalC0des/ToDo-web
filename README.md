@@ -21,4 +21,13 @@ It helps you keep track of tasks, shows progress with a progress bar, and even c
 
 ---
 
+## 📱 Mobile Responsiveness
+The To-Do Web App is now fully responsive for mobile devices.  
+- Tasks and progress bar adjust automatically for smaller screens.  
+- Input and button stack vertically for better usability.  
+- Clean and user-friendly design on all devices.
+
+--- 
+
+
 
